@@ -18,16 +18,21 @@ h1 {
 }
 
 h2 {
+  font-size: 26px;
   border-bottom: 1px solid #eb9e52;
   width: 91%;
   margin-right: auto;
   margin-left: auto;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 p {
-  font-family: sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #28160e;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 a {
@@ -61,12 +66,16 @@ nav ul li {
 
 li a {
   color: #28160e;
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 18px;
 }
 
 li a:hover {
   color: #eb9e52;
+}
+
+.active {
+  font-weight: 700;
 }
 
 .search {
@@ -190,5 +199,23 @@ footer {
 .single-product {
   border: 2px solid #eb9e52;
   background-color: rgba(235, 158, 82, 0.1);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.single-product p {
+  margin: 5px;
+}
+
+.single-product p:first-child {
+  font-weight: 700;
+}
+
+.single-product p:last-child {
+  font-size: 18px;
+}
+
+.fab {
+  font-size: 40px;
+  margin: 10px;
+  color: #28160e;
 }
